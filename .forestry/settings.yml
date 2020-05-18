@@ -40,7 +40,7 @@ sections:
   label: Blog
 - type: directory
   path: content/blog
-  label: Add Post
+  label: Add/View Post
   create: documents
   match: "**/*"
   templates:
