@@ -5,6 +5,14 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: heading
+  label: My Website
+- type: document
+  path: data/design.yaml
+  label: Design
+- type: document
+  path: data/profile.yaml
+  label: My Profile
+- type: heading
   label: Services
 - type: directory
   path: content/services
@@ -13,12 +21,6 @@ sections:
   match: "**/*"
   templates:
   - services
-- type: document
-  path: data/profile.yaml
-  label: My Profile
-- type: document
-  path: data/design.yaml
-  label: Design
 - type: heading
   label: Pages
 - type: directory
