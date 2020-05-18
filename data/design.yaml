@@ -1,6 +1,6 @@
 ---
 hero:
-  hero_image: "/uploads/1.jpg"
+  hero_image: "/uploads/main.jpg"
   hero_title: Complete Muscle Therapy
   hero_subtitle: Hero Subtitle
 info_icons:
@@ -119,3 +119,4 @@ home_sections:
   subscription_subtitle: Stay in Touch
   subscription_title: Join our email list and be the first to know about specials
     and discounts!
+sub_image: "/uploads/sub.jpg"
